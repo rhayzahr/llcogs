@@ -1,0 +1,12 @@
+{
+    "name": "TwitchClips",
+    "short": "Auto-post new Twitch clips to a Discord channel.",
+    "description": "Polls the Twitch Helix API for new clips on configured Twitch channels and posts them to a chosen Discord channel.",
+    "install_msg": "Set Twitch API credentials with: [p]set api twitch client_id,YOUR_ID client_secret,YOUR_SECRET\nThen: [p]twitchclips add <twitch_user> #channel",
+    "author": ["James"],
+    "requirements": [],
+    "tags": ["twitch", "clips", "notifications"],
+    "min_bot_version": "3.5.0",
+    "end_user_data_statement": "This cog stores Twitch channel names and Discord channel IDs configured per server. It does not store personal user data.",
+    "type": "COG"
+}
